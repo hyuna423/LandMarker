@@ -1,10 +1,13 @@
+
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css);
+
+
 *{margin:0; padding:0; box-sizing:border-box;}
     a{text-decoration : none;}
     a:focus{
       outline: none;
     }
     address{font-style:normal;}
-
 
 
 h3{
@@ -27,3 +30,265 @@ h3{
 
 
 /*헤더*/
+header{
+  width: 100%;
+  position:fixed;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 90;
+}
+
+header .hd_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mb_logo{
+  display: none;
+}
+
+header .hd_wrap hgroup{
+  width: 10%;
+}
+
+header .hd_wrap .pc_nav{
+  width: 50%;
+  height: 80px;
+}
+
+header .hd_wrap .pc_nav ul{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .hd_wrap .pc_nav ul li{
+  position: relative;
+  text-transform:uppercase; 
+}
+
+header .hd_wrap .pc_nav ul li::after{
+  display:block;
+  content: '';
+  border-bottom: solid 3px #ffffff;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+header .hd_wrap .pc_nav ul li:hover::after{
+  transform: scaleX(1);
+}
+
+header .hd_wrap .pc_nav ul li a{
+  color: #fff;
+}
+
+header .hd_wrap .pc_nav ul button{
+  background-color: #fff;
+  border-radius: 30px;
+  border:none;
+  padding: 2px 8px;
+  font-weight: 500;
+  transition: all .2s;
+}
+
+header .hd_wrap .pc_nav ul button:hover{
+  background-color: #222222;
+  color: #fff;
+}
+
+header .hd_wrap .pc_nav ul button img{
+  width: 19px;
+}
+
+/* 모바일 */
+header .hd_wrap .mob_btn{
+  width:40px;
+  height:40px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+header .hd_wrap .mob_btn span{
+  display: inline-block;
+  width: 30px;
+  height: 5px;
+  background-color: #144E8A;
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+header .hd_wrap .mob_btn span::after,
+header .hd_wrap .mob_btn span::before{
+  content: '';
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  background-color: #144E8A;
+  position: absolute;
+  top: -10px;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+header .hd_wrap .mob_btn span::after{
+  top: 10px;
+}
+
+header .hd_wrap .mob_btn.active span{
+  background-color: transparent;
+
+}
+
+header .hd_wrap .mob_btn.active span::before{
+  top: 0;
+  transform:rotate(45deg);
+}
+header .hd_wrap .mob_btn.active span::after{
+  top: 0;
+  transform:rotate(-45deg);
+}
+
+header .hd_wrap .mob_nav{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 80px;
+  right: 0;
+  background-color: #ffffffcb;
+  text-align: center;
+  display: none;
+}
+
+header .hd_wrap .mob_nav ul{
+  padding: 1% 0;
+}
+
+header .hd_wrap .mob_nav li{
+  line-height: 5;
+  font-size: 20px;
+  transition: .4s;
+}
+
+header .hd_wrap .mob_nav li a{
+  color: #333;
+  font-weight: 500;
+  transition: .4s;
+}
+
+header .hd_wrap .mob_nav li a:hover{
+  color: #fff;
+  font-weight: bold;
+}
+
+header .hd_wrap .mob_nav li:hover{
+  background-color: #57aced77;
+}
+
+header .hd_wrap .mob_nav button{
+  border: 1px solid #333;
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+
+header .hd_wrap .mob_nav button:hover{
+  background-color: #144E8A;
+  color: #fff;
+  border:none ;
+}
+
+header .hd_wrap .mob_nav button img{
+  max-width: 20px;
+}
+
+/* home */
+#home{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main_vid{
+  width: 100%;
+}
+
+.main_vid video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#home .home_area{
+  z-index: 15;
+  position: absolute;
+  width: 90%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home .home_area .home_txt h2{
+  font-size: 6rem;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#home .home_area .home_txt h4{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding:0 0 5% 0;
+}
+
+#home .home_area .home_txt p{
+  line-height: 1.4;
+  padding-bottom: 4%;
+}
+
+#home .home_area .btn_sec {
+  width: 90%;
+}
+
+#home .home_area .btn_sec button{
+  color: #fff;
+  width: 22%;
+  padding: 10px 0;
+  background: #57ACED;
+  backdrop-filter: blur(1.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+#home .home_area .btn_sec button:first-child{
+  margin-right: 3%;
+}
+
+
+/* about */
+#about{
+  text-align: center;
+  padding: 80px 0;
+}
+
+#about .ab_area{
+  line-height: 1.7;
+}

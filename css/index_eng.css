@@ -1,5 +1,8 @@
 
-
+#about .ab_area p{
+  width: 60%;
+  margin: 0 auto;
+}
     
 /*데탑*/
 @media screen and (max-width:1440px) {

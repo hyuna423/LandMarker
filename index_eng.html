@@ -7,7 +7,7 @@
 
 
   <!--meta-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="le=edge">
 
   <!--bootstrap-->
@@ -28,7 +28,7 @@
   <link href="img/favicon.ico" rel="apple-touch-icon">
 
   <!--js-->
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/menu_scroll.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -41,23 +41,27 @@
 
   <header>
 
-    <div class="">
+    <div class="hd_wrap container">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <h1> <a href="index.html"><img src="img/LM_logo_r 1.png" alt="logo"></a></h1>
+        <h1 class="mb_logo"><a href="index.html"><img src="img/LM_logo.png" alt=""></a></h1>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="pc_nav">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">LandMarker Coin
+            </a></li>
+          <li><a href="roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="contact" class="scroll">Contact</a></li>
+
+          <button type="button" onclick="location.href='index.html' ">Ko <img src="img/kor_icon.png" alt=""></button>
 
         </ul>
       </nav>
@@ -65,31 +69,40 @@
 
       <!--반응형-->
 
-      <div class="">
+      <div class="mob_btn">
 
-        <img src="img/" alt="menu_button">
+        <span><i></i></span>
+
+        <script>
+          $(function () {
+            $('.mob_btn').click(function () {
+              $(this).toggleClass('active')
+            });
+          });
+        </script>
 
       </div>
 
-      <nav class="">
+      <nav class="mob_nav">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">LandMarker Coin
+            </a></li>
+          <li><a href="roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="contact" class="scroll">Contact</a></li>
 
         </ul>
-
+        <button type="button" onclick="location.href='index.html' ">Ko <img src="img/kor_icon.png" alt=""></button>
       </nav>
 
       <!--반응형 js-->
       <script type="text/javascript">
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".mob_btn").click(function () {
+            $(".mob_nav").animate({ width: "toggle" }, 250);
           });
         });
 
@@ -100,9 +113,43 @@
   </header>
 
   <main>
+    <section id="home">
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
 
+      <div class="home_area container">
+        <div class="home_txt">
+          <h2>LandMarker</h2>
+          <h4>Ideal Combination and Synergy between Blockchain and SNS Efficiency and Transparency in Global Real Estate
+            Transactions
+          </h4>
+          <p>SNS, the hub of information leading the global market.
+            Blockchain that maximizes transparency and efficiency in the trading market Megatrends meet to open a new
+            chapter in real estate transactions.
+          </p>
+        </div>
+        <div class="btn_sec">
+          <button type="button" onclick="location.href='LandMarker_whitepaper-Kor.pdf' "> WhitePaper</button>
+          <button type="button" onclick="location.href='' ">Wallet</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="ab_area container">
+        <h3>Intro.</h3>
+        <p>LandMarker (LDMK) is a company that has a wide range of real estate products around the world.
+          <br><br>
+          Integrated and managed through blockchain and SNS By updating real-time item information and providing the
+          latest information, It's about making all the real estate that users want to trade with famous landmarks.
+        </p>
+      </div>
+    </section>
   </main>
-  
+
   <footer>
 
   </footer>
@@ -110,6 +157,7 @@
   <script>
     AOS.init();
   </script>
+
 
 </body>
 

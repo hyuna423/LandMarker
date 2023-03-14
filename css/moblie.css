@@ -1,18 +1,42 @@
-
 /*데탑*/
-@media screen and (max-width:1440px) {
-}
+@media screen and (max-width:1440px) {}
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+
+  /* home */
+  .main_vid {
+    height: 100vh;
+  }
+
+  .main_vid video {
+    width: auto;
+    height: 100%;
+  }
+
+  #home .home_area {
+    z-index: 15;
+    position: absolute;
+    width: 90%;
+  }
+
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+  /* header */
+  header .hd_wrap .pc_nav {
+    width: 70%;
+  }
+  
+  /* home */
+  #home .home_area .btn_sec button {
+    width: 43%;
+  }
 }
 
 
@@ -20,6 +44,38 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  /* mob */
+  header .hd_wrap .pc_nav {
+    display: none;
+  }
+
+  hgroup h1 {
+    height: 80px;
+    display: none;
+  }
+
+  hgroup h1.mb_logo {
+    display: flex;
+    align-items: center;
+  }
+
+  hgroup h1.mb_logo img {
+    max-width: 50px;
+  }
+
+  header .hd_wrap .mob_btn {
+    display: block;
+  }
+
+  /* home */
+  #home .home_area .home_txt h2 {
+    font-size: 5rem;
+  }
+
+  #home .home_area .home_txt h4 {
+    font-size: 1.6rem;
+  }
+
 
 }
 
@@ -28,20 +84,51 @@
 
 
 @media screen and (max-width:576px) {
+  h3{
+    font-size: 2rem;
+  }
 
+
+  /* home */
+  #home .home_area .home_txt h2 {
+    font-size: 3rem;
+  }
+
+  #home .home_area .home_txt h4 {
+    font-size: 1rem;
+  }
+
+  #home .home_area .home_txt p {
+    font-size: 14px;
+  }
+
+  #home .home_area .home_txt p br {
+    display: none;
+  }
+
+  #home .home_area .btn_sec button {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  #home .home_area .btn_sec button:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* about */
+  #about .ab_area p br{
+    display: none;
+  }
 }
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-
-}
+@media screen and (max-width:425px) {}
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}
