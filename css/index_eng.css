@@ -12,12 +12,18 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    #home .home_area .home_txt {
+      width: 70%;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    #home .home_area .home_txt {
+      width: 100%;
+  }
 }
 
 
@@ -25,6 +31,10 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  /* about */
+  #about .ab_area p {
+    width: 90%;
+  }
 
 }
 

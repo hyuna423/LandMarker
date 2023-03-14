@@ -37,6 +37,13 @@
   #home .home_area .btn_sec button {
     width: 43%;
   }
+
+  #home .home_area .home_txt h2 {
+    font-size: 5rem;
+  }
+
+  
+
 }
 
 
@@ -68,13 +75,15 @@
   }
 
   /* home */
+
   #home .home_area .home_txt h2 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   #home .home_area .home_txt h4 {
     font-size: 1.6rem;
   }
+
 
 
 }
@@ -90,6 +99,9 @@
 
 
   /* home */
+  #home .home_area .home_txt {
+    width: 100%;
+}
   #home .home_area .home_txt h2 {
     font-size: 3rem;
   }
@@ -120,6 +132,8 @@
   #about .ab_area p br{
     display: none;
   }
+
+
 }
 
 
