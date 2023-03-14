@@ -258,14 +258,12 @@ footer{
   transition: all .5s;
   border-radius: 5px;
   padding: 2%;
-  border: 1px solid #fff;s
+  border: 1px solid #fff;
 }
 
-.footer3_community a:hover{
-  border: 1px solid #57ACED;
-  box-shadow: 0 0 5px #57ACED;
-}
 
 .footer3_community a:hover i{
   color: #57ACED;
+  border: 1px solid #57ACED;
+  box-shadow: 0 0 5px #57ACED;
 }
