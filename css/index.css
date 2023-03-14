@@ -370,3 +370,251 @@ header .hd_wrap .mob_nav button img{
 #about .ab_area{
   line-height: 1.7;
 }
+
+
+
+
+
+
+
+/*roadmap*/
+
+#roadmap {
+  width: 100%;
+  padding: 80px 0;
+  background: linear-gradient(#F0F5F9 30%, #ffffff 10%);
+}
+
+.rdmap_wrap{
+  width: 100%;
+}
+
+.rdmap_wrap h3{
+  text-align: left;
+  margin-bottom: 130px;
+}
+
+.rdmap_contents{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rdmap_contents .rdmap_box {
+  width: 30%;
+  height: 100%;
+  border: 5px solid #CAE7FF;
+  padding: 3% 2.5%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.rdmap_contents .rdmap_box.rdmap_2022{
+  padding-bottom: 10.5%;
+}
+
+
+.rdmap_contents .rdmap_box.rdmap_2023{
+  margin-top: 20%;
+}
+
+.rdmap_contents .rdmap_box .rdmap_box_img{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.rdmap_contents .rdmap_box .rdmap_box_img img{
+  max-width: 100%;
+}
+
+.rdmap_box_year{
+  width: 100%;
+}
+
+.rdmap_box_year li{
+  margin-bottom: 10%;
+}
+
+.rdmap_box_year li:first-child{
+  text-align: center;
+  color: #57ACED;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.rdmap_box_year li:last-child{
+  margin-bottom: 0 !important;
+}
+
+
+/*contact*/
+
+#contact{
+  width: 100%;
+  padding: 80px 0;
+  background: linear-gradient(#ffffff 30%, #E2F1FF 10%);
+}
+
+.contact_wrap{
+  width: 100%;
+  padding: 5% 0 0;
+}
+
+.contact_wrap h3{
+  margin-bottom: 130px;
+}
+
+.contact_wrap form{
+}
+
+.contact_wrap form input, .contact_wrap form textarea{
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 18px rgba(133, 201, 255, .5);
+}
+
+.contact_wrap form input.email{
+  width: 50%;
+  padding: 1% 1.35%;
+}
+
+.contact_wrap form textarea{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 70%;
+  height: 300px;
+  border: none;
+  padding: 2%;
+
+}
+
+.contact_wrap form input.send{
+  width: 20%;
+  padding: 1.2% 1.8%;
+  background-color: #57ACED;
+  color: #fff;
+  transition: all .5s;
+  font-weight: 700;
+}
+
+.contact_wrap form input.send:hover{
+  background-color: #fff;
+  color: #57ACED;
+}
+
+
+
+
+/*footer*/
+
+footer{
+  width: 100%;
+  height: 100%;
+  padding: 80px 0;
+  color: #fff;
+  background: url(../img/footer_bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.footer_wrap{
+  width: 100%;
+}
+
+.footer_contents{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_contents div h5{
+  margin-bottom: 40px;
+}
+
+.footer1_whitepp {
+  width: 15%;
+}
+
+.footer1_whitepp a{
+  display: block;
+  width: 100%;
+  margin-bottom: 20%;
+  background-color: rgba(255,255,255,.2);
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 3% 0;
+  color: #fff;
+  transition: all .5s;
+}
+
+.footer1_whitepp a:hover{
+  color: #57ACED;
+  border: 1px solid #57ACED;
+  box-shadow: 0 0 5px #57ACED;
+  background-color: transparent;
+}
+
+.footer1_whitepp a:last-child{
+  margin-bottom: 0 !important;
+}
+
+.footer1_whitepp a span{
+  width: 100%;
+}
+
+.footer1_whitepp a span img{
+  max-width:20%;
+}
+
+
+
+
+.footer2_inc {
+  width: 40%;
+}
+
+.footer2_inc h5{
+  text-align: center;
+}
+
+.footer2_inc div{
+  margin-bottom: 10%;
+}
+
+.footer2_inc div:last-child{
+  margin-bottom: 0 !important;
+}
+
+.f_br {
+  display: none;
+}
+
+
+
+.footer3_community{
+  width: 10%;
+}
+
+.footer3_community a{
+  display: block;
+  width: 30%;
+  text-align: center;
+  transition: all .5s;
+}
+
+.footer3_community a i{
+  color: #fff;
+  transition: all .5s;
+  border-radius: 5px;
+  padding: 2%;
+  border: 1px solid #fff;
+}
+
+
+.footer3_community a:hover i{
+  color: #57ACED;
+  border: 1px solid #57ACED;
+  box-shadow: 0 0 5px #57ACED;
+}

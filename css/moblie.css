@@ -22,6 +22,36 @@
     width: 90%;
   }
 
+    /*roadmap*/
+
+    .rdmap_wrap h3{
+      margin-bottom: 80px;
+    }
+
+    .rdmap_contents .rdmap_box {
+      width: 32.5%;
+    }
+
+    /*contact*/
+
+    .contact_wrap form input.email{
+      padding: 2%;
+    }
+
+    .contact_wrap form input.send {
+      padding: 2.2% 4%;
+    }
+
+    /*footer*/
+
+    .footer1_whitepp{
+      width: 20%;
+    }
+
+
+    .footer3_community{
+      width: 15%;
+    }
 }
 
 
@@ -42,7 +72,89 @@
     font-size: 5rem;
   }
 
-  
+  /*roadmap*/
+
+  #roadmap{
+    background: linear-gradient(#F0F5F9 15%, #ffffff 10%);
+  }
+
+  .rdmap_contents{
+    flex-direction: column;
+  }
+
+  .rdmap_contents .rdmap_box{
+    width: 80%;
+    padding: 10%;
+    margin: 0 auto;
+  }
+
+  .rdmap_contents .rdmap_box .rdmap_box_img img{
+    max-width: 70%;
+  }
+
+  .rdmap_contents .rdmap_box.rdmap_2023{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  /*contact*/
+
+  .contact_wrap form input.email{
+    width: 60%;
+  }
+
+  .contact_wrap form textarea{
+    width: 85%;
+  }
+
+  .contact_wrap form input.send {
+    width: 30%;
+    padding: 3%;
+  }
+
+
+  /*footer*/
+
+  footer{
+    text-align: center;
+  }
+
+  .footer_contents{
+    flex-direction: column;
+  }
+
+  .footer_contents > div:nth-child(2){
+    margin: 15% 0;
+  }
+
+  .footer1_whitepp {
+    width: 100%;
+  }
+
+  .footer1_whitepp a{
+    display: inline-block;
+    width: calc(100% / 2 - 3%);
+    margin-bottom: 0;
+    margin-right: 3%;
+  }
+
+  .footer1_whitepp a:last-child{
+    margin-right: 0 !important;
+    float: right;
+  }
+
+  .footer2_inc{
+    width: 100%;
+  }
+
+  .footer3_community{
+    width: 100%;
+  }
+
+  .footer3_community a{
+    width: 10%;
+    margin: 0 auto;
+  }
 
 }
 
@@ -83,6 +195,41 @@
   #home .home_area .home_txt h4 {
     font-size: 1.6rem;
   }
+
+
+  
+  /*roadmap*/
+
+  #roadmap{
+    background: linear-gradient(#F0F5F9 20%, #ffffff 10%);
+  }
+
+  
+    /*contact*/
+
+    .contact_wrap form input.email{
+      width: 80%;
+      padding: 4%;
+    }
+
+    .contact_wrap form textarea{
+      width: 100%;
+      padding: 4%;
+      margin-top: 4%;
+      margin-bottom: 10%;
+    }
+
+    .contact_wrap form input.send {
+      width: 40%;
+      padding: 4.5% 6%;
+    }
+
+    /*footer*/
+
+    .footer3_community a{
+      width: 10%;
+      margin: 0 auto;
+    }
 
 
 
@@ -131,6 +278,42 @@
   /* about */
   #about .ab_area p br{
     display: none;
+  }
+
+   /*roadmap*/
+
+   .rdmap_contents .rdmap_box{
+    width: 100%;
+    padding: 10% 5%;
+  }
+
+  /*contact*/
+
+  #contact{
+    background:linear-gradient(#ffffff 25%, #E2F1FF 10%);
+  }
+
+  .contact_wrap form textarea{
+    width: 90%;
+    height: 400px;
+  }
+
+
+
+  /*footer*/
+
+  .f_br{
+    display: block;
+  }
+
+  .footer1_whitepp a{
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+
+  .footer1_whitepp a:last-child{
+    float: none;
   }
 
 
