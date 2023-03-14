@@ -1,5 +1,25 @@
 /*데탑*/
-@media screen and (max-width:1440px) {}
+@media screen and (max-width:1440px) {
+    /* intro2 */
+    .intro2_box p {
+      padding: 7% 2%;
+    }
+  
+    /* intro3 */
+    .intro3_box {
+      width: 50%;
+      right: 5%;
+    }
+    .intro3_bottom p {
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+  
+    /* coin */
+    .coin_bottom img {
+      max-width: 100%;
+    }
+}
 
 
 
@@ -24,6 +44,44 @@
     z-index: 15;
     position: absolute;
     width: 90%;
+  }
+
+  /* intro2 */
+  .intro2_box {
+    flex-direction: column;
+  }
+
+  /* intro3 */
+  .intro3_top {
+    text-align: center;
+    padding-bottom: 40%;
+  }
+  .intro3_top img {
+    width: 85%;
+    border-radius: 50px 50px 0 0;
+
+}
+  .intro3_box {
+    width: 65%;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 400px;
+  }
+
+  .intro3_box li {
+    text-align: left;
+  }
+  .intro3_bottom {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .intro3_bottom p {
+    width: 65%;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 55px;
+    padding: 2%;
   }
 
     /*roadmap*/
@@ -91,6 +149,33 @@
 
   #home .home_area .home_txt h2 {
     font-size: 5rem;
+  }
+
+
+   /* intro3 */
+
+   .intro3_top {
+    text-align: center;
+    padding-bottom: 40%;
+  }
+
+  .intro3_box {
+    height: 300px;
+  }
+
+  /* coin */
+  .coin_top {
+    width: 90%;
+  }
+  .coin_bottom {
+    flex-direction: column;
+  }
+  .coin_bottom img {
+    max-width: 80%;
+  }
+  .coin_info {
+    width: 90%;
+    margin-top: 8%;
   }
 
   /*roadmap*/
@@ -184,6 +269,10 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+
+  h3 {
+    font-size: 2em;
+  }
   /* mob */
   header .hd_wrap .pc_nav {
     display: none;
@@ -206,6 +295,30 @@
   #home .home_area .home_txt h4 {
     font-size: 1.6rem;
   }
+
+  .intro3_top img {
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+}
+
+
+
+.intro3_bottom {
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+
+.intro3_bottom p{
+  width: 80%;
+}
+.intro3_box {
+  width:80%;
+}
+    /* coin */
+    .coin_bottom img {
+      max-width: 50%;
+    }
 
 
   
@@ -291,6 +404,26 @@
     display: none;
   }
 
+    /* intro3 */
+    .intro3_box {
+      width: 95%;
+      height: 240px;
+    }
+    .intro3_bottom {
+      margin-top: 7%;
+
+    }
+    .intro3_bottom p {
+      width: 85%;
+      font-size: 0.9rem;
+      padding: 4%;
+    }
+
+    .intro3_top {
+      text-align: center;
+      padding-bottom: 60%;
+  }
+
    /*roadmap*/
 
    .rdmap_contents .rdmap_box{
@@ -334,7 +467,12 @@
 
 /*모바일3 갤럭시*/
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+      /* intro3 */
+      .intro3_box li {
+        font-size: 0.9rem;
+    }
+}
 
 
 
