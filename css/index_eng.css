@@ -3,6 +3,10 @@
   width: 60%;
   margin: 0 auto;
 }
+
+#home .home_area .home_txt{
+  width: 50%;
+}
     
 /*데탑*/
 @media screen and (max-width:1440px) {
