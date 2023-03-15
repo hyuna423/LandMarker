@@ -859,3 +859,11 @@ footer{
   border: 1px solid #57ACED;
   box-shadow: 0 0 5px #57ACED;
 }
+
+footer span{
+  display: block;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 0.6rem;
+  color: #ffffffc2;
+}
