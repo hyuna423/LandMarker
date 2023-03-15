@@ -343,3 +343,8 @@ textarea {
 a:hover{
     text-decoration: none;
 }
+
+button:focus{ 	
+    border: none;
+    outline:none;
+    }
