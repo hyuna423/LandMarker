@@ -1,24 +1,20 @@
 /*데탑*/
 @media screen and (max-width:1440px) {
-    /* intro2 */
-    .intro2_box p {
-      padding: 7% 2%;
-    }
-  
-    /* intro3 */
-    .intro3_box {
-      width: 50%;
-      right: 5%;
-    }
-    .intro3_bottom p {
-      font-size: 0.8rem;
-      font-weight: 100;
-    }
-  
-    /* coin */
-    .coin_bottom img {
-      max-width: 100%;
-    }
+
+  /* intro2 */
+  .intro2_box p {
+    padding: 7% 2%;
+  }
+
+  /* intro3 */
+
+
+  .intro3_bottom p {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+
+
 }
 
 
@@ -52,69 +48,71 @@
   }
 
   /* intro3 */
+
   .intro3_top {
     text-align: center;
     padding-bottom: 40%;
   }
-  .intro3_top img {
-    width: 85%;
-    border-radius: 50px 50px 0 0;
 
-}
+  .intro3_top img {
+    width: 100%;
+  }
+
   .intro3_box {
-    width: 65%;
-    left:50%;
-    bottom: 0;
+    width: 90%;
+    left: 50%;
+    top: 50%;
     transform: translateX(-50%);
-    height: 400px;
+    height: 420px;
   }
 
   .intro3_box li {
     text-align: left;
   }
+
   .intro3_bottom {
-    flex-direction: column;
-    margin-top: 5%;
+    flex-wrap: wrap;
+    margin-top: 0;
   }
+
   .intro3_bottom p {
-    width: 65%;
+    width: 48%;
     font-size: 1rem;
     font-weight: 600;
-    height: 55px;
     padding: 2%;
   }
 
-    /*roadmap*/
+  /*roadmap*/
 
-    .rdmap_wrap h3{
-      margin-bottom: 80px;
-      text-align: center;
-    }
+  .rdmap_wrap h3 {
+    margin-bottom: 80px;
+    text-align: center;
+  }
 
-    .rdmap_contents .rdmap_box {
-      width: 32.5%;
-    }
+  .rdmap_contents .rdmap_box {
+    width: 32.5%;
+  }
 
-    /*contact*/
+  /*contact*/
 
-    .contact_wrap form input.email{
-      padding: 2%;
-    }
+  .contact_wrap form input.email {
+    padding: 2%;
+  }
 
-    .contact_wrap form input.send {
-      padding: 2.2% 4%;
-    }
+  .contact_wrap form input.send {
+    padding: 2.2% 4%;
+  }
 
-    /*footer*/
+  /*footer*/
 
-    .footer1_whitepp{
-      width: 20%;
-    }
+  .footer1_whitepp {
+    width: 20%;
+  }
 
 
-    .footer3_community{
-      width: 15%;
-    }
+  .footer3_community {
+    width: 15%;
+  }
 }
 
 
@@ -141,7 +139,7 @@
   hgroup h1.mb_logo img {
     max-width: 50px;
   }
-  
+
   /* home */
   #home .home_area .btn_sec button {
     width: 43%;
@@ -152,64 +150,75 @@
   }
 
 
-   /* intro3 */
-
-   .intro3_top {
-    text-align: center;
-    padding-bottom: 40%;
-  }
+  /* intro3 */
 
   .intro3_box {
-    height: 300px;
+    height: 345px;
+  }
+
+  .intro3_top {
+    text-align: center;
+    padding-bottom: 50%;
   }
 
   /* coin */
   .coin_top {
-    width: 90%;
+    width: 100%;
   }
+
   .coin_bottom {
     flex-direction: column;
   }
+
   .coin_bottom img {
     max-width: 80%;
-  }
+}
+
   .coin_info {
-    width: 90%;
     margin-top: 8%;
+  }
+
+  .coin_info {
+    width: 100%;
+  }
+
+  .coin_bottom {
+    width: 100%;
+    padding: 0;
   }
 
   /*roadmap*/
 
-  #roadmap{
+  #roadmap {
     background: linear-gradient(#F0F5F9 15%, #ffffff 10%);
   }
 
-  .rdmap_contents{
+  .rdmap_contents {
     flex-direction: column;
   }
 
-  .rdmap_contents .rdmap_box{
+  .rdmap_contents .rdmap_box {
     width: 80%;
     padding: 10%;
     margin: 0 auto;
   }
 
-  .rdmap_contents .rdmap_box .rdmap_box_img img{
+  .rdmap_contents .rdmap_box .rdmap_box_img img {
     max-width: 70%;
   }
 
-  .rdmap_contents .rdmap_box.rdmap_2023{
+  .rdmap_contents .rdmap_box.rdmap_2023 {
     margin-top: 10%;
     margin-bottom: 10%;
   }
 
   /*contact*/
 
-  .contact_wrap form input.email{
+  .contact_wrap form input.email {
     width: 60%;
   }
 
-  .contact_wrap form textarea{
+  .contact_wrap form textarea {
     width: 85%;
   }
 
@@ -221,15 +230,15 @@
 
   /*footer*/
 
-  footer{
+  footer {
     text-align: center;
   }
 
-  .footer_contents{
+  .footer_contents {
     flex-direction: column;
   }
 
-  .footer_contents > div:nth-child(2){
+  .footer_contents>div:nth-child(2) {
     margin: 15% 0;
   }
 
@@ -237,27 +246,27 @@
     width: 100%;
   }
 
-  .footer1_whitepp a{
+  .footer1_whitepp a {
     display: inline-block;
     width: calc(100% / 2 - 3%);
     margin-bottom: 0;
     margin-right: 3%;
   }
 
-  .footer1_whitepp a:last-child{
+  .footer1_whitepp a:last-child {
     margin-right: 0 !important;
     float: right;
   }
 
-  .footer2_inc{
+  .footer2_inc {
     width: 100%;
   }
 
-  .footer3_community{
+  .footer3_community {
     width: 100%;
   }
 
-  .footer3_community a{
+  .footer3_community a {
     width: 10%;
     margin: 0 auto;
   }
@@ -273,6 +282,7 @@
   h3 {
     font-size: 2em;
   }
+
   /* mob */
   header .hd_wrap .pc_nav {
     display: none;
@@ -286,7 +296,7 @@
   /* home */
   #home .home_area .home_txt {
     width: 100%;
-}
+  }
 
   #home .home_area .home_txt h2 {
     font-size: 4rem;
@@ -296,64 +306,70 @@
     font-size: 1.6rem;
   }
 
+  /* intro3 */
+
   .intro3_top img {
     width: 100%;
-    border-radius: 50px 50px 0 0;
+  }
+
+  .intro3_top {
+    text-align: center;
+    padding-bottom: 60%;
+  }
+
+  .intro3_bottom {
+    flex-direction: column;
+  }
+
+
+  .intro3_bottom p {
+    width: 90%;
+  }
+
+  .intro3_box {
+    width: 90%;
+    height: 275px;
+  }
+
+
+  /* coin */
+
+  .coin_info li p {
+    width: 85%;
 }
 
-
-
-.intro3_bottom {
-  flex-direction: column;
-  margin-top: 10%;
-}
-
-
-.intro3_bottom p{
-  width: 80%;
-}
-.intro3_box {
-  width:80%;
-}
-    /* coin */
-    .coin_bottom img {
-      max-width: 50%;
-    }
-
-
-  
   /*roadmap*/
 
-  #roadmap{
+  #roadmap {
     background: linear-gradient(#F0F5F9 20%, #ffffff 10%);
   }
 
-  
-    /*contact*/
 
-    .contact_wrap form input.email{
-      width: 80%;
-      padding: 4%;
-    }
+  /*contact*/
 
-    .contact_wrap form textarea{
-      width: 100%;
-      padding: 4%;
-      margin-top: 4%;
-      margin-bottom: 10%;
-    }
+  .contact_wrap form input.email {
+    width: 80%;
+    padding: 4%;
+  }
 
-    .contact_wrap form input.send {
-      width: 40%;
-      padding: 4.5% 6%;
-    }
+  .contact_wrap form textarea {
+    width: 100%;
+    padding: 4%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
 
-    /*footer*/
+  .contact_wrap form input.send {
+    width: 40%;
+    padding: 4.5% 6%;
+  }
 
-    .footer3_community a{
-      width: 10%;
-      margin: 0 auto;
-    }
+  /*footer*/
+
+  .footer3_community a {
+    width: 10%;
+    margin: 0 auto;
+  }
 
 
 
@@ -364,7 +380,7 @@
 
 
 @media screen and (max-width:576px) {
-  h3{
+  h3 {
     font-size: 2rem;
   }
 
@@ -372,7 +388,8 @@
   /* home */
   #home .home_area .home_txt {
     width: 100%;
-}
+  }
+
   #home .home_area .home_txt h2 {
     font-size: 3rem;
   }
@@ -400,44 +417,78 @@
   }
 
   /* about */
-  #about .ab_area p br{
+  #about .ab_area p br {
     display: none;
   }
 
-    /* intro3 */
-    .intro3_box {
-      width: 95%;
-      height: 240px;
-    }
-    .intro3_bottom {
-      margin-top: 7%;
-
-    }
-    .intro3_bottom p {
-      width: 85%;
-      font-size: 0.9rem;
-      padding: 4%;
-    }
-
-    .intro3_top {
-      text-align: center;
-      padding-bottom: 60%;
+  /* intro3 */
+  .intro3_box {
+    width: 95%;
+    height: 240px;
   }
 
-   /*roadmap*/
+  .intro3_bottom {
+    margin-top: 7%;
 
-   .rdmap_contents .rdmap_box{
+  }
+
+  .intro3_bottom p {
+    font-size: 0.9rem;
+    padding: 4%;
+    width: 95%;
+  }
+
+  .intro3_top {
+    text-align: center;
+    padding-bottom: 60%;
+  }
+
+
+  /* coin */
+
+  .coin_top {
+    width: 99%;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.coin_top p {
+  width: 85%;
+}
+
+  .coin_bottom img {
+    max-width: 90%;
+  }
+
+  .coin_info {
+    width: 90%;
+  }
+
+  .coin_info span {
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .coin_info li p {
+    width: 80%;
+  }
+
+  /*roadmap*/
+
+  .rdmap_contents .rdmap_box {
     width: 100%;
     padding: 10% 5%;
   }
 
   /*contact*/
 
-  #contact{
-    background:linear-gradient(#ffffff 25%, #E2F1FF 10%);
+  #contact {
+    background: linear-gradient(#ffffff 25%, #E2F1FF 10%);
   }
 
-  .contact_wrap form textarea{
+  .contact_wrap form textarea {
     width: 90%;
     height: 400px;
   }
@@ -446,17 +497,17 @@
 
   /*footer*/
 
-  .f_br{
+  .f_br {
     display: block;
   }
 
-  .footer1_whitepp a{
+  .footer1_whitepp a {
     width: 80%;
     margin-right: 0;
     margin-bottom: 5%;
   }
 
-  .footer1_whitepp a:last-child{
+  .footer1_whitepp a:last-child {
     float: none;
   }
 
@@ -468,10 +519,11 @@
 /*모바일3 갤럭시*/
 
 @media screen and (max-width:425px) {
-      /* intro3 */
-      .intro3_box li {
-        font-size: 0.9rem;
-    }
+
+  /* intro3 */
+  .intro3_box li {
+    font-size: 0.9rem;
+  }
 }
 
 

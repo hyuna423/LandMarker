@@ -7,9 +7,20 @@
 #home .home_area .home_txt{
   width: 50%;
 }
+.intro3_bottom {
+  align-items: stretch
+}
+.intro3_bottom p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
     
 /*데탑*/
 @media screen and (max-width:1440px) {
+
 }
 
 
@@ -19,6 +30,9 @@
     #home .home_area .home_txt {
       width: 70%;
   }
+
+
+
 }
 
 
